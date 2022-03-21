@@ -1,0 +1,97 @@
+                    html,
+                body,
+                header,
+                #intro {
+                    height: 100%;
+                    margin: 0%;
+                    padding: 0%;
+                }
+                
+                #intro {
+                    background: url("art3.jpg")no-repeat center center fixed;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                }
+                
+                .top-nav-collapse {
+                    background-color: #24355C;
+                }
+                
+                @media (max-width: 768px) {
+                    .navbar:not(.top-nav-collapse) {
+                        background-color: #24355C;
+                    }
+                }
+                
+                @media (min-width: 800px) and (max-width: 850px) {
+                    .navbar:not(.top-nav-collapse) {
+                        background-color: #24355C;
+                    }
+                }
+                
+                input[type=text],
+                select,
+                textarea {
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid #ccc;
+                    margin-top: 6px;
+                    margin-bottom: 16px;
+                    resize: vertical;
+                }
+                
+                input[type=submit] {
+                    background-color: #04AA6D;
+                    color: white;
+                    padding: 12px 20px;
+                    border: none;
+                    cursor: pointer;
+                    margin-left: 200px;
+                }
+                
+                input[type=email],
+                email {
+                    padding-right: 300px;
+                    padding-bottom: 18px;
+                }
+                
+                input[type=submit]:hover {
+                    background-color: #45a049;
+                }
+                
+                .column {
+                    float: left;
+                    width: 50%;
+                    margin-top: 6px;
+                    padding: 20px;
+                }
+                
+                .row:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                
+                @media screen and (max-width: 600px) {
+                    .column,
+                    input[type=submit] {
+                        width: 100%;
+                        margin-top: 0;
+                    }
+                }
+                
+                @media screen and (max-width: 600px) {
+                    /* .container1 {
+        margin-left: -250px;
+    }
+    .container1 h2 {
+        margin-left: 380px;
+        
+        .container1 input[type=submit] {
+            padding: 5px;
+            width: 80px;
+            border-radius: 10px;
+        }
+    } */
